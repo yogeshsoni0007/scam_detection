@@ -12,13 +12,24 @@ __pycache__/
 # Streamlit secrets
 .streamlit/secrets.toml
 
+# Generated app artifacts
+.streamlit/cache/
+.streamlit/logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+coverage.xml
+htmlcov/
+.coverage
+
 # macOS
 .DS_Store
 
 # Jupyter
 .ipynb_checkpoints/
 
-#Local Reference & file 
+# Local reference files and untracked data
 /1.ipynb
 /test_streamlit.py
 /data
